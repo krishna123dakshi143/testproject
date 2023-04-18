@@ -13,6 +13,9 @@ public class Single {
 		return object;
 		
 	}
+	public void sub() {
+		System.out.println("subtraction testing");
+	}
 	public static void main(String[] args) {
 		Single obj1 = getobject();
 		System.out.println(System.identityHashCode(obj1));
